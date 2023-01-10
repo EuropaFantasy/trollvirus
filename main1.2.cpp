@@ -30,7 +30,7 @@ void messageset() {
     if(MessageBox(
                 NULL,
                 "O_O",
-                "Δ",
+                "^_^",
                 MB_OKCANCEL)==IDCANCEL) {
         MessageBox(
             NULL,
@@ -56,7 +56,7 @@ void payload() {
     int a = 1;
 
     while(a<100) {
-        BlockInput(TRUE);
+//BlockInput(true);
         SetCursorPos(500,500);
         Sleep(3000);
         a++;
