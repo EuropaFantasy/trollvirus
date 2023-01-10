@@ -35,7 +35,7 @@ void messageset() {
         MessageBox(
             NULL,
             "BOUH",
-            "Δ",
+            "^_^",
             MB_OK);
     }
 }
@@ -85,11 +85,11 @@ void rickroll() {
 
 void poweroff() {
     SetCursorPos(32, 845);
-    Sleep(400);
+    Sleep(200);
     mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
     Sleep(400);
     SetCursorPos(579, 767);
-    Sleep(400);
+    Sleep(200);
     mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
     Sleep(400);
     SetCursorPos(571, 696);
