@@ -24,4 +24,4 @@ aller dans le dossier du fichier main.cpp avec un terminal et exécuter `x86_64-
 
 Installer Visual Studio (testé 2022) avec les outils dev burreau en c++
 
-Ouvrir le fichier sln qui est dans les .zip que je vais poster
+Je vais poster des fichiers `.txt` qui contiennent des liens mediafire car mon dossier entier est trop lourd pour github
