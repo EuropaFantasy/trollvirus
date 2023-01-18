@@ -22,6 +22,8 @@ aller dans le dossier du fichier main.cpp avec un terminal et exécuter `x86_64-
 
 ### Sous Windows
 
-Installer Visual Studio (testé 2022) avec les outils dev burreau en c++
+Installer Visual Studio (testé 2022) avec les outils dev bureau en c++
 
 Je vais poster des fichiers `.txt` qui contiennent des liens mediafire car mon dossier entier est trop lourd pour github
+
+addons dispos pour la 1.4
