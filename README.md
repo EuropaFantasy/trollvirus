@@ -27,3 +27,32 @@ Installer Visual Studio (testé 2022) avec les outils dev bureau en c++
 Je vais poster des fichiers `.txt` qui contiennent des liens mediafire car mon dossier entier est trop lourd pour github
 
 addons dispos pour la 1.4
+
+## Utiliser 
+### Configurer (1.4+)
+À partir de la version 1.4, j'ai ajouté un interpréteur dans un événement, qui lit le fichier (il faut qu'il soit dans le meme dossier et don absence genere un message de debug dans la console si ouvert à partir d'une console) `commandes.txt`. L'implémentation est la suivante :
+
+`commande`
+
+`argument`
+
+(pas tout le temps nécessaire, dépend des fonctions) `argument 2`
+
+`commande`
+
+`argument`...
+
+pour l'instant mes commandes sont les suivantes :
+
+1 `attendre` `tempsEnMillisecondes`
+2 `openlink` `lienÀOuvrir`
+3 `playsound` `lienVersUnFichierWAV`
+4 `msgbox` `contenu` `titre`
+
+l'absence d'arguments à cause de la fin du fichier (si vous specifiez une nouvelle commande sans avoir donné assez d'arguments elle sera interprétée  comme un argument) et declenchera un comportement par defaut ou l'arret de la lecture du fichier après un message d'informations dans la console.
+les comportements par défaut sont:
+
+1 pour `attendre` 30 000 millisecondes soit 30 secondes
+2 pour `openlink` ouvrir `https://cornhub.website` (si vous voulez ouvrir en navigateur n'oubliez pas https:// et testez le fonctionnement
+3 pour `playsound` appelle l'événement rickroll
+4 pour `msgbox` appelle l'événement des boîtes de dialogues
