@@ -1,5 +1,5 @@
 # trollvirus
-Fonctionnel sous Windows (utilise son API, je le réécrirai peut être pour Linux ou MacOS si je trouve des gens à troller qui sont sous ça)
+Fonctionnel sous Windows (utilise son API, je le réécrirai peut être pour Linux ou MacOS si quelqu'un en a besoin)
 
 ## Compiler
 
@@ -44,15 +44,22 @@ addons dispos pour la 1.4
 
 pour l'instant mes commandes sont les suivantes :
 
-1 `attendre` `tempsEnMillisecondes`
-2 `openlink` `lienÀOuvrir`
-3 `playsound` `lienVersUnFichierWAV`
+1 `attendre` `tempsEnMillisecondes` 
+
+2 `openlink` `lienÀOuvrir` 
+
+3 `playsound` `lienVersUnFichierWAV` 
+
 4 `msgbox` `contenu` `titre`
+
 
 l'absence d'arguments à cause de la fin du fichier (si vous specifiez une nouvelle commande sans avoir donné assez d'arguments elle sera interprétée  comme un argument) et declenchera un comportement par defaut ou l'arret de la lecture du fichier après un message d'informations dans la console.
 les comportements par défaut sont:
 
-1 pour `attendre` 30 000 millisecondes soit 30 secondes
-2 pour `openlink` ouvrir `https://cornhub.website` (si vous voulez ouvrir en navigateur n'oubliez pas https:// et testez le fonctionnement
-3 pour `playsound` appelle l'événement rickroll
+1 pour `attendre` 30 000 millisecondes soit 30 secondes 
+
+2 pour `openlink` ouvrir `https://cornhub.website` (si vous voulez ouvrir en navigateur n'oubliez pas https:// et testez le fonctionnement 
+
+3 pour `playsound` appelle l'événement rickroll 
+
 4 pour `msgbox` appelle l'événement des boîtes de dialogues
