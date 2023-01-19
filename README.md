@@ -63,3 +63,10 @@ les comportements par défaut sont:
 3 pour `playsound` appelle l'événement rickroll 
 
 4 pour `msgbox` appelle l'événement des boîtes de dialogues
+
+## Arrêter le troll 
+
+pour fermer l'application, il y a trois solutions:
+
+ouvrir le gestionnaire des tâches, onglet processus, trouver le nom de l'exécutable, et forcer l'arrêt
+ouvrir l'invite de commandes ou powershell, executer `ps`, trouver le nom de l'exécutable, récupérer son PID, le nombre à 4 chiffres le plus souvent
